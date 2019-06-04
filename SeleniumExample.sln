@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiTests", "GuiTests\GuiTests.csproj", "{D1A310D4-21DB-4FD6-AA1F-992471388D48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F9F7122D-2B5A-4A8D-9691-57627B24F02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertLibrary", "..\..\TissSiteProject\Api\AlertLibrary\AlertLibrary.csproj", "{3C050E9D-F213-4D69-BD3A-8A7DD040B275}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{D1A310D4-21DB-4FD6-AA1F-992471388D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A310D4-21DB-4FD6-AA1F-992471388D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A310D4-21DB-4FD6-AA1F-992471388D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F7122D-2B5A-4A8D-9691-57627B24F02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F7122D-2B5A-4A8D-9691-57627B24F02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F7122D-2B5A-4A8D-9691-57627B24F02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F7122D-2B5A-4A8D-9691-57627B24F02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C050E9D-F213-4D69-BD3A-8A7DD040B275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C050E9D-F213-4D69-BD3A-8A7DD040B275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C050E9D-F213-4D69-BD3A-8A7DD040B275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C050E9D-F213-4D69-BD3A-8A7DD040B275}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1EAA714-1210-41D2-87BD-84785B35A593}
 	EndGlobalSection
 EndGlobal
